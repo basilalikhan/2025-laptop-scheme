@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apply Now Button</title>
+  <style>
+    /* CSS Styling */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .apply-now-section {
+      text-align: center;
+      padding: 50px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 100px;
+      width: 80%;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .apply-now-section h2 {
+      font-size: 32px;
+      color: #333;
+    }
+
+    .apply-now-section p {
+      font-size: 18px;
+      color: #666;
+    }
+
+    #applyNowButton {
+      padding: 12px 30px;
+      font-size: 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    #applyNowButton:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Apply Now Section -->
+  <div class="apply-now-section">
+    <h2>Apply Now</h2>
+    <p>Click below to apply for the program:</p>
+    <button id="applyNowButton">Apply Now</button>
+  </div>
+
+  <script>
+    // JavaScript for Button Action
+    document.getElementById("applyNowButton").addEventListener("click", function() {
+      window.location.href = "https://64f8-103-125-177-228.ngrok-free.app"; // Replace with your website's link
+    });
+  </script>
+
+</body>
+</html>
